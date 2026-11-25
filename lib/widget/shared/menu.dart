@@ -4,12 +4,10 @@ import 'package:nicmo/app_info.dart';
 import 'package:nicmo/domain/city/city.dart';
 import 'package:nicmo/domain/transit/transit_network.dart';
 import 'package:nicmo/il8n/app_localizations.dart';
-import 'package:nicmo/infrastructure/ads/ads_service.dart';
 import 'package:nicmo/state/city_state.dart';
 import 'package:nicmo/state/map_filter_state.dart';
 import 'package:nicmo/state/trip_state.dart';
 import 'package:nicmo/theme/metro_theme.dart';
-import 'package:nicmo/widget/ads/sponsored_ad.dart';
 import 'package:nicmo/widget/city/city_card.dart';
 import 'package:nicmo/widget/shared/lightdark.dart';
 import 'package:nicmo/widget/shared/nicmo_logo.dart';
@@ -201,10 +199,6 @@ class MenuWidget extends StatelessWidget {
                 ],
               ],
             ),
-          ),
-          const Padding(
-            padding: EdgeInsets.fromLTRB(12, 0, 12, 8),
-            child: SponsoredAd(placement: AdPlacement.menu),
           ),
           Divider(height: 1, color: textColor.withValues(alpha: 0.1)),
           SafeArea(

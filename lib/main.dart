@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nicmo/app_info.dart';
 import 'package:nicmo/il8n/app_localizations.dart';
-import 'package:nicmo/infrastructure/ads/ads_service.dart';
 import 'package:nicmo/state/active_trip_state.dart';
 import 'package:nicmo/state/city_state.dart';
 import 'package:nicmo/state/onboarding_state.dart';
@@ -46,9 +45,6 @@ void main() async {
     tripController.ensureNetwork().ignore();
   }
   runApp(const MyApp());
-  // After runApp and without awaiting: the consent form (EEA/UK only)
-  // shows over the app, and ads must never delay the map.
-  AdsService.start().ignore();
 }
 
 class MyApp extends StatelessWidget {

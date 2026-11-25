@@ -10,7 +10,7 @@ Public-transport trip planner for Medellín and the Aburrá Valley (Colombia), b
 
 ## English
 
-Nicmo is a public-transport trip planner for **Medellín and the Aburrá Valley** (Colombia), built with Flutter. It combines metro, tram, Metrocable, Metroplús, feeder and urban buses from official open data, and plans routes **on the phone**: no accounts, no backend of its own, and your searches are not stored.
+Nicmo is a public-transport trip planner for **Medellín and the Aburrá Valley** (Colombia), built with Flutter. It combines metro, tram, Metrocable, Metroplús, feeder and urban buses from official open data, and plans routes **on the phone**: no accounts, no ads, no backend of its own, and your searches are not stored.
 
 ### Features
 
@@ -51,6 +51,10 @@ Nicmo is a public-transport trip planner for **Medellín and the Aburrá Valley*
 
 <p><img src="docs/screenshots/en/07_settings_light.jpg" width="220" alt="07_settings_light"></p>
 
+### Install on Android
+
+Download the latest `.apk` from [Releases](https://github.com/juliannichollsc/nicmo/releases) and open it on the phone (Android asks you to allow installs from that app the first time). Nicmo is not on the Play Store yet. If an update does not install over the previous version, uninstall Nicmo and install the new APK.
+
 ### Getting started
 
 Requires Flutter 3.41 (Dart 3.11) or newer.
@@ -60,8 +64,6 @@ flutter pub get
 flutter run                 # Android, iOS or web
 flutter build web           # web build in build/web
 ```
-
-Ads (Google AdMob) are optional. Debug builds always use Google's test ads; release builds without unit IDs request none. To use your own, copy `env/ads.example.json` to `env/ads.json` (gitignored), add your ad unit IDs and build with `--dart-define-from-file=env/ads.json`. If you publish your own build, also change the AdMob App ID in `android/app/src/main/AndroidManifest.xml` and `ios/Runner/Info.plist`, and the `com.jnicholls.nicmo` application id.
 
 ### How it is built
 
@@ -118,7 +120,7 @@ Nicmo is not affiliated with Metro de Medellín, the Área Metropolitana del Val
 
 ## Español
 
-Nicmo es un planificador de viajes en transporte público para **Medellín y el Valle de Aburrá** (Colombia), hecho en Flutter. Combina metro, tranvía, Metrocable, Metroplús, alimentadores y buses urbanos con datos abiertos oficiales y calcula las rutas **en el teléfono**: no hay cuentas ni servidor propio, y tus búsquedas no se guardan.
+Nicmo es un planificador de viajes en transporte público para **Medellín y el Valle de Aburrá** (Colombia), hecho en Flutter. Combina metro, tranvía, Metrocable, Metroplús, alimentadores y buses urbanos con datos abiertos oficiales y calcula las rutas **en el teléfono**: no hay cuentas, anuncios ni servidor propio, y tus búsquedas no se guardan.
 
 ### Qué hace
 
@@ -159,6 +161,10 @@ Nicmo es un planificador de viajes en transporte público para **Medellín y el 
 
 <p><img src="docs/screenshots/es/07_settings_light.jpg" width="220" alt="07_settings_light"></p>
 
+### Instalar en Android
+
+Descarga el `.apk` más reciente desde [Releases](https://github.com/juliannichollsc/nicmo/releases) y ábrelo en el teléfono (la primera vez Android te pide permitir instalaciones desde esa app). Nicmo todavía no está en Play Store. Si una actualización no se instala encima de la versión anterior, desinstala Nicmo e instala el APK nuevo.
+
 ### Empezar
 
 Requisitos: Flutter 3.41 (Dart 3.11) o superior.
@@ -168,8 +174,6 @@ flutter pub get
 flutter run                 # Android, iOS o web
 flutter build web           # versión web en build/web
 ```
-
-Los anuncios (Google AdMob) son opcionales. En debug siempre se usan los anuncios de prueba de Google; en release sin IDs no se pide ninguno. Para usar los tuyos, copia `env/ads.example.json` a `env/ads.json` (está en `.gitignore`), pon tus IDs de bloque y compila con `--dart-define-from-file=env/ads.json`. Si publicas tu propia versión, cambia también el App ID de AdMob en `android/app/src/main/AndroidManifest.xml` y `ios/Runner/Info.plist`, y el identificador `com.jnicholls.nicmo`.
 
 ### Cómo está hecho
 
@@ -226,7 +230,7 @@ Nicmo no está afiliado al Metro de Medellín, al Área Metropolitana del Valle 
 
 ## Deutsch
 
-Nicmo ist ein Reiseplaner für den öffentlichen Nahverkehr in **Medellín und dem Aburrá-Tal** (Kolumbien), entwickelt mit Flutter. Er kombiniert Metro, Straßenbahn, Metrocable, Metroplús, Zubringer- und Stadtbusse aus offiziellen offenen Daten und berechnet die Routen **auf dem Handy**: keine Konten, kein eigener Server, und deine Suchen werden nicht gespeichert.
+Nicmo ist ein Reiseplaner für den öffentlichen Nahverkehr in **Medellín und dem Aburrá-Tal** (Kolumbien), entwickelt mit Flutter. Er kombiniert Metro, Straßenbahn, Metrocable, Metroplús, Zubringer- und Stadtbusse aus offiziellen offenen Daten und berechnet die Routen **auf dem Handy**: keine Konten, keine Werbung, kein eigener Server, und deine Suchen werden nicht gespeichert.
 
 ### Funktionen
 
@@ -267,6 +271,10 @@ Nicmo ist ein Reiseplaner für den öffentlichen Nahverkehr in **Medellín und d
 
 <p><img src="docs/screenshots/en/07_settings_light.jpg" width="220" alt="07_settings_light"></p>
 
+### Installation auf Android
+
+Lade die neueste `.apk` unter [Releases](https://github.com/juliannichollsc/nicmo/releases) herunter und öffne sie auf dem Handy (beim ersten Mal fragt Android, ob Installationen aus dieser App erlaubt werden). Nicmo ist noch nicht im Play Store. Lässt sich ein Update nicht über die vorherige Version installieren, deinstalliere Nicmo und installiere die neue APK.
+
 ### Loslegen
 
 Voraussetzung: Flutter 3.41 (Dart 3.11) oder neuer.
@@ -276,8 +284,6 @@ flutter pub get
 flutter run                 # Android, iOS oder Web
 flutter build web           # Web-Version in build/web
 ```
-
-Werbung (Google AdMob) ist optional. Debug-Builds nutzen immer die Testanzeigen von Google; Release-Builds ohne Anzeigenblock-IDs fordern keine an. Für eigene Anzeigen kopiere `env/ads.example.json` nach `env/ads.json` (in `.gitignore`), trage deine IDs ein und baue mit `--dart-define-from-file=env/ads.json`. Wenn du eine eigene Version veröffentlichst, ändere auch die AdMob-App-ID in `android/app/src/main/AndroidManifest.xml` und `ios/Runner/Info.plist` sowie die Kennung `com.jnicholls.nicmo`.
 
 ### Aufbau
 
@@ -334,7 +340,7 @@ Nicmo ist nicht mit der Metro de Medellín, dem Área Metropolitana del Valle de
 
 ## 中文
 
-Nicmo 是一款用 Flutter 开发的公共交通出行规划应用，覆盖 **麦德林及阿布拉谷地区**（哥伦比亚）。它基于官方开放数据，组合地铁、有轨电车、缆车（Metrocable）、Metroplús、接驳巴士和城市公交，并**在手机上**计算路线：无需账号，没有自己的服务器，也不保存你的搜索记录。
+Nicmo 是一款用 Flutter 开发的公共交通出行规划应用，覆盖 **麦德林及阿布拉谷地区**（哥伦比亚）。它基于官方开放数据，组合地铁、有轨电车、缆车（Metrocable）、Metroplús、接驳巴士和城市公交，并**在手机上**计算路线：无需账号，没有广告，没有自己的服务器，也不保存你的搜索记录。
 
 ### 功能
 
@@ -375,6 +381,10 @@ Nicmo 是一款用 Flutter 开发的公共交通出行规划应用，覆盖 **�
 
 <p><img src="docs/screenshots/en/07_settings_light.jpg" width="220" alt="07_settings_light"></p>
 
+### 在 Android 上安装
+
+从 [Releases](https://github.com/juliannichollsc/nicmo/releases) 下载最新的 `.apk` 并在手机上打开（首次安装时 Android 会要求允许从该应用安装）。Nicmo 目前尚未上架 Play 商店。如果更新无法覆盖安装旧版本，请先卸载 Nicmo，再安装新的 APK。
+
 ### 快速开始
 
 需要 Flutter 3.41（Dart 3.11）或更高版本。
@@ -384,8 +394,6 @@ flutter pub get
 flutter run                 # Android、iOS 或 Web
 flutter build web           # Web 版本输出到 build/web
 ```
-
-广告（Google AdMob）是可选的。Debug 构建始终使用 Google 的测试广告；未配置广告单元 ID 的 Release 构建不会请求广告。如需使用自己的广告，将 `env/ads.example.json` 复制为 `env/ads.json`（已在 `.gitignore` 中），填入你的广告单元 ID，并使用 `--dart-define-from-file=env/ads.json` 构建。如果发布自己的版本，还需修改 `android/app/src/main/AndroidManifest.xml` 和 `ios/Runner/Info.plist` 中的 AdMob 应用 ID，以及应用标识 `com.jnicholls.nicmo`。
 
 ### 项目结构
 

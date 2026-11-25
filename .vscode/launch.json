@@ -7,22 +7,19 @@
         {
             "name": "Nicmo",
             "request": "launch",
-            "type": "dart",
-            "args": ["--dart-define-from-file=env/ads.json"]
+            "type": "dart"
         },
         {
             "name": "Nicmo (profile mode)",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "profile",
-            "args": ["--dart-define-from-file=env/ads.json"]
+            "flutterMode": "profile"
         },
         {
             "name": "Nicmo (release mode)",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "release",
-            "args": ["--dart-define-from-file=env/ads.json"]
+            "flutterMode": "release"
         }
     ]
 }

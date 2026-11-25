@@ -7,14 +7,12 @@ import 'package:lottie/lottie.dart';
 import 'package:nicmo/domain/transit/itinerary.dart';
 import 'package:nicmo/domain/transit/transit_network.dart';
 import 'package:nicmo/il8n/app_localizations.dart';
-import 'package:nicmo/infrastructure/ads/ads_service.dart';
 import 'package:nicmo/infrastructure/map/offline_vector_tiles.dart';
 import 'package:nicmo/infrastructure/share/location_share.dart';
 import 'package:nicmo/state/active_trip_state.dart';
 import 'package:nicmo/state/location_state.dart';
 import 'package:nicmo/state/trip_state.dart';
 import 'package:nicmo/theme/metro_theme.dart';
-import 'package:nicmo/widget/ads/sponsored_ad.dart';
 import 'package:nicmo/widget/map/metro_map.dart';
 import 'package:nicmo/widget/transit/transit_style.dart';
 import 'package:nicmo/widget/trip/itinerary_results.dart';
@@ -737,11 +735,6 @@ class _Arrived extends StatelessWidget {
                 ),
                 child: Text(l10n.endTrip),
               ),
-            ),
-            // The trip is over: the only moment of the trip with an ad.
-            const Padding(
-              padding: EdgeInsets.fromLTRB(16, 24, 16, 0),
-              child: SponsoredAd(placement: AdPlacement.endTrip, dark: true),
             ),
           ],
         ),

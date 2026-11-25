@@ -42,12 +42,13 @@ Pending work and next steps: `docs/PENDIENTES.md`.
 - Do not show bus operators/companies (the user considers it unnecessary).
 - Only routes **published and accessible to the public** are used; private or permission-gated datasets are excluded even if the user can log in.
 - No accounts and no profile: login, sign-up, verification and the profile screen were removed (with `image_picker` and the camera / photo / microphone permissions); the welcome steps go straight to the map (`/home`). The shell has two branches: map and settings.
-- Terms and conditions: `lib/screens/legal/` (`/terms`, linked from the welcome city step and from Settings). Content in `terms_content.dart` (es + en; other languages show en). Bump `kTermsVersion` on any change. `kPrivacyContactEmail` is empty until the owner provides one (the contact line is hidden meanwhile). There is no account data and no own server; searches go to Nominatim and tiles to OpenFreeMap/OSM — keep the terms truthful if that changes (e.g. notifications or ads need opt-in and a terms update).
+- Terms and conditions: `lib/screens/legal/` (`/terms`, linked from the welcome city step and from Settings). Content in `terms_content.dart` (es + en; other languages show en). Bump `kTermsVersion` on any change. `kPrivacyContactEmail` is empty until the owner provides one (the contact line is hidden meanwhile). There is no account data and no own server; searches go to Nominatim and tiles to OpenFreeMap/OSM — keep the terms truthful if that changes (e.g. notifications need opt-in and a terms update).
 
 ## No backend
 
 - The app is fully client-side: routes are planned on the device from the bundled city assets. The planned Nicmo API (own OSRM to draw walking / car legs along the streets) was dropped on 2026-11-25; walking and car legs are drawn as straight lines and car time is the straight distance at `ItineraryLeg.carMetersPerMin`.
 - Never store Mapbox or Google routing results (their terms forbid it).
+- No ads: AdMob was removed on 2026-11-25 (dependency, App IDs, ad widgets, terms). The project is open source (Apache 2.0) and the Android APK is published on GitHub Releases, debug-signed for now (a later signing change means uninstall + reinstall).
 
 ## Data pipeline (`tool/`, Python 3, run with `-I`)
 

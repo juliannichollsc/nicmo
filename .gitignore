@@ -43,7 +43,3 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
-
-# Local secrets passed with --dart-define-from-file (see env/*.example.json)
-/env/*.json
-!/env/*.example.json

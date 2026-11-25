@@ -6,6 +6,9 @@ Punto de partida para retomar. Los detalles están en los documentos enlazados.
 
 - El 2026-11-25 se descartó el backend propio (`nicmo-back`, OSRM para trazar por calles). La app es totalmente independiente: planifica en el teléfono con los datos de `assets/cities/`, y los tramos a pie y en carro se dibujan en línea recta.
 - Se quitaron `NicmoStreetRouter`, `env/api*.json`, `docs/rutas_calle_osrm.md` y la mención del servidor en los términos (versión 2026-11-25).
+- Sin anuncios: el 2026-11-25 se quitó AdMob (dependencia, App ID de Android e iOS, widgets, `env/ads*.json` y la sección de publicidad de los términos). Se recortaron los permisos de Android a internet y ubicación.
+- [ ] Revisar en la cuenta de AdMob si conviene eliminar la app «Nicmo» y sus bloques de anuncios, que ya no se usan.
+- [ ] APK en GitHub Releases: hoy va firmado con la llave de depuración. Si se pasa a una llave propia, quien la tenga instalada debe desinstalar y volver a instalar.
 
 ## 2. Mapbox (retirado)
 

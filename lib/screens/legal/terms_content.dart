@@ -55,8 +55,8 @@ const _es = TermsContent(
       'No pedimos cuenta ni registro, y no vendemos tus datos.',
     ),
     TermsHighlight(
-      Icons.campaign_outlined,
-      'Mostramos anuncios no personalizados solo al llegar y en el menú, nunca durante el viaje.',
+      Icons.code_rounded,
+      'Nicmo es de código abierto y no muestra anuncios.',
     ),
   ],
   sections: [
@@ -86,17 +86,15 @@ const _es = TermsContent(
       'Nicmo no pide registro ni inicio de sesión: no recolecta tu nombre, correo ni teléfono. No vendemos ni alquilamos datos, y solo los compartimos en los casos que se describen aquí o cuando una autoridad competente lo exija por ley.',
       'Ubicación: se usa en tu dispositivo para mostrarte en el mapa y planear rutas; solo se envía a otra persona cuando tú decides compartirla.',
       'Búsquedas y mapa: el texto que buscas y los puntos que eliges se consultan en OpenStreetMap (Nominatim), y el mapa se descarga de OpenFreeMap y OpenStreetMap. Esos servicios reciben solo la consulta técnica. Las rutas se calculan en tu teléfono: Nicmo no tiene servidor propio y no recibe tus búsquedas, tus puntos ni tus rutas.',
-      'Publicidad: los anuncios los sirve Google AdMob. Para mostrarlos, medirlos y prevenir fraudes, Google recibe datos técnicos del dispositivo (dirección IP, de la que puede deducir una ubicación aproximada, modelo, sistema operativo e identificador de publicidad). Nicmo pide solo anuncios no personalizados y no le entrega a Google tu ubicación, tus búsquedas ni tus rutas. Puedes restablecer o eliminar el identificador de publicidad en los ajustes de tu teléfono. Google trata esos datos según su política de privacidad (policies.google.com/privacy).',
       'Preferencias, ciudades activas, viaje en curso y mapa sin conexión se guardan en tu dispositivo. Puedes borrarlos quitando una ciudad o eliminando los datos de la aplicación.',
       'Tienes derecho a conocer, actualizar, rectificar y suprimir tus datos, y a revocar tu autorización.',
     ]),
     TermsSection('7. Publicidad y notificaciones', [
-      'Nicmo muestra anuncios para cubrir el mantenimiento de la app y de los datos, solo en dos lugares: en la pantalla de llegada, al terminar un viaje, y en un espacio pequeño del menú lateral. Nunca mientras sigues una ruta ni a pantalla completa.',
-      'Los anuncios son de terceros y se identifican como tales; lo que ofrecen es responsabilidad de cada anunciante. Donde la ley lo exige, se te pide el consentimiento antes de mostrarlos.',
+      'Nicmo no muestra anuncios ni usa servicios de publicidad o de seguimiento.',
       'Nicmo no envía notificaciones promocionales. Si se incorporan, se actualizarán estos términos y se pedirá tu autorización expresa, que podrás retirar en cualquier momento.',
     ]),
     TermsSection('8. Propiedad intelectual y licencias', [
-      'La aplicación, su diseño y su marca pertenecen a sus responsables. Los datos de transporte conservan las licencias y créditos de sus fuentes, que se muestran en el mapa y en la documentación del proyecto.',
+      'El código de Nicmo es abierto, bajo la licencia Apache 2.0 (github.com/juliannichollsc/nicmo). El nombre y la marca Nicmo pertenecen a sus responsables. Los datos de transporte conservan las licencias y créditos de sus fuentes, que se muestran en el mapa y en la documentación del proyecto.',
     ]),
     TermsSection('9. Cambios a estos términos', [
       'Podemos actualizar estos términos. La versión vigente siempre estará en la aplicación con su fecha; si el cambio es importante, te lo avisaremos dentro de la app.',
@@ -126,8 +124,8 @@ const _en = TermsContent(
       'No account or sign-up, and we do not sell your data.',
     ),
     TermsHighlight(
-      Icons.campaign_outlined,
-      'We show non-personalised ads only on arrival and in the menu, never during a trip.',
+      Icons.code_rounded,
+      'Nicmo is open source and shows no ads.',
     ),
   ],
   sections: [
@@ -157,17 +155,15 @@ const _en = TermsContent(
       'Nicmo asks for no sign-up or login: it does not collect your name, email or phone. We do not sell or rent data, and we share it only in the cases described here or when a competent authority requires it by law.',
       'Location is used on your device to show you on the map and plan routes; it is sent to someone else only when you choose to share it.',
       'Searches and map: the text you search and the points you pick are looked up on OpenStreetMap (Nominatim), and the map is downloaded from OpenFreeMap and OpenStreetMap. Those services receive only the technical request. Routes are planned on your phone: Nicmo has no server of its own and does not receive your searches, points or routes.',
-      'Advertising: ads are served by Google AdMob. To show and measure them and to prevent fraud, Google receives technical device data (IP address, from which it may infer an approximate location, model, operating system and advertising ID). Nicmo requests only non-personalised ads and does not give Google your location, searches or routes. You can reset or delete the advertising ID in your phone settings. Google processes that data under its privacy policy (policies.google.com/privacy).',
       'Preferences, active cities, the trip in progress and the offline map are stored on your device. You can delete them by removing a city or clearing the app data.',
       'You have the right to know, update, correct and delete your data, and to revoke your authorisation.',
     ]),
     TermsSection('7. Advertising and notifications', [
-      'Nicmo shows ads to pay for the upkeep of the app and its data, in two places only: the arrival screen, when a trip ends, and a small slot in the side menu. Never while you follow a route, and never full screen.',
-      'Ads come from third parties and are labelled as such; what they offer is the responsibility of each advertiser. Where the law requires it, your consent is asked before showing them.',
+      'Nicmo shows no ads and uses no advertising or tracking services.',
       'Nicmo sends no promotional notifications. If they are added, these terms will be updated and your express authorisation will be requested; you can withdraw it at any time.',
     ]),
     TermsSection('8. Intellectual property and licences', [
-      'The app, its design and its brand belong to its owners. Transport data keeps the licences and credits of its sources, shown on the map and in the project documentation.',
+      'Nicmo\'s code is open source under the Apache 2.0 licence (github.com/juliannichollsc/nicmo). The Nicmo name and brand belong to its owners. Transport data keeps the licences and credits of its sources, shown on the map and in the project documentation.',
     ]),
     TermsSection('9. Changes to these terms', [
       'We may update these terms. The current version, with its date, is always available in the app; important changes will be announced in the app.',

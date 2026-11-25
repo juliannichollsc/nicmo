@@ -13,8 +13,3 @@ const bool kMultiCityEnabled = false;
 /// City preselected (and, without [kMultiCityEnabled], the only one offered)
 /// in the welcome step: Medellín covers the whole Valle de Aburrá.
 const String kDefaultCityId = 'medellin';
-
-/// AdMob ads: a card on the arrival screen and a small slot in the side
-/// menu, never while navigating. Off turns every ad widget into nothing.
-/// Ad units come from `env/ads.json`; debug builds use Google's test units.
-const bool kAdsEnabled = true;
