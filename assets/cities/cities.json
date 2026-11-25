@@ -1,0 +1,228 @@
+{
+  "version": 1,
+  "cities": [
+    {
+      "id": "medellin",
+      "name": "Medellín",
+      "region": "Valle de Aburrá · Antioquia",
+      "status": "available",
+      "color": "#41822B",
+      "center": [
+        6.2476,
+        -75.5658
+      ],
+      "zoom": 12.5,
+      "bounds": [
+        6.05,
+        -75.72,
+        6.45,
+        -75.42
+      ],
+      "municipalities": [
+        "Medellín",
+        "Bello",
+        "Itagüí",
+        "Envigado",
+        "Sabaneta",
+        "La Estrella",
+        "Caldas",
+        "Copacabana",
+        "Girardota",
+        "Barbosa"
+      ],
+      "systems": [
+        "Metro",
+        "Metrocable",
+        "Tranvía",
+        "Metroplús",
+        "Buses"
+      ],
+      "attributions": [
+        "Metro de Medellín (datos abiertos)"
+      ],
+      "layers": [
+        {
+          "id": "metro",
+          "asset": "assets/cities/medellin/metro.json"
+        },
+        {
+          "id": "buses",
+          "asset": "assets/cities/medellin/buses.json"
+        },
+        {
+          "id": "urban",
+          "asset": "assets/cities/medellin/urban.json"
+        }
+      ]
+    },
+    {
+      "id": "bogota",
+      "name": "Bogotá",
+      "region": "Bogotá D.C. · Sabana",
+      "status": "soon",
+      "color": "#B3261E",
+      "center": [
+        4.6533,
+        -74.0836
+      ],
+      "zoom": 12,
+      "bounds": [
+        4.45,
+        -74.25,
+        4.84,
+        -73.99
+      ],
+      "municipalities": [
+        "Bogotá",
+        "Soacha",
+        "Chía",
+        "Cota",
+        "Funza",
+        "Mosquera"
+      ],
+      "systems": [
+        "TransMilenio",
+        "SITP",
+        "TransMiCable"
+      ],
+      "layers": []
+    },
+    {
+      "id": "cali",
+      "name": "Cali",
+      "region": "Valle del Cauca",
+      "status": "soon",
+      "color": "#0B6E99",
+      "center": [
+        3.4516,
+        -76.532
+      ],
+      "zoom": 12.5,
+      "bounds": [
+        3.32,
+        -76.6,
+        3.52,
+        -76.45
+      ],
+      "municipalities": [
+        "Cali",
+        "Jamundí",
+        "Yumbo"
+      ],
+      "systems": [
+        "MIO",
+        "MIO Cable"
+      ],
+      "layers": []
+    },
+    {
+      "id": "barranquilla",
+      "name": "Barranquilla",
+      "region": "Atlántico",
+      "status": "soon",
+      "color": "#C25E00",
+      "center": [
+        10.9685,
+        -74.7813
+      ],
+      "zoom": 12.5,
+      "bounds": [
+        10.85,
+        -74.9,
+        11.06,
+        -74.75
+      ],
+      "municipalities": [
+        "Barranquilla",
+        "Soledad",
+        "Malambo",
+        "Puerto Colombia"
+      ],
+      "systems": [
+        "Transmetro"
+      ],
+      "layers": []
+    },
+    {
+      "id": "cartagena",
+      "name": "Cartagena",
+      "region": "Bolívar",
+      "status": "soon",
+      "color": "#7B3FA0",
+      "center": [
+        10.391,
+        -75.4794
+      ],
+      "zoom": 13,
+      "bounds": [
+        10.33,
+        -75.56,
+        10.47,
+        -75.45
+      ],
+      "municipalities": [
+        "Cartagena"
+      ],
+      "systems": [
+        "Transcaribe"
+      ],
+      "layers": []
+    },
+    {
+      "id": "bucaramanga",
+      "name": "Bucaramanga",
+      "region": "Área metropolitana · Santander",
+      "status": "soon",
+      "color": "#AD1457",
+      "center": [
+        7.1193,
+        -73.1227
+      ],
+      "zoom": 13,
+      "bounds": [
+        7.0,
+        -73.2,
+        7.17,
+        -73.05
+      ],
+      "municipalities": [
+        "Bucaramanga",
+        "Floridablanca",
+        "Girón",
+        "Piedecuesta"
+      ],
+      "systems": [
+        "Metrolínea"
+      ],
+      "layers": []
+    },
+    {
+      "id": "pereira",
+      "name": "Pereira",
+      "region": "Área metropolitana · Risaralda",
+      "status": "soon",
+      "color": "#00796B",
+      "center": [
+        4.8133,
+        -75.6961
+      ],
+      "zoom": 13,
+      "bounds": [
+        4.76,
+        -75.8,
+        4.86,
+        -75.62
+      ],
+      "municipalities": [
+        "Pereira",
+        "Dosquebradas",
+        "La Virginia"
+      ],
+      "systems": [
+        "Megabús",
+        "Megacable"
+      ],
+      "layers": []
+    }
+  ]
+}

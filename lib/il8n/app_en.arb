@@ -1,0 +1,494 @@
+{
+  "@@locale": "en",
+  "email": "Email",
+  "enterYourEmail": "Enter your email",
+  "password": "Password",
+  "enterYourPassword": "Enter your password",
+  "forgotPassword": "Forgot password?",
+  "login": "Login",
+  "dontHaveAccountSignUp": "Don't have an account? Sign up",
+  "name": "Name",
+  "enterYourName": "Enter your name",
+  "lastName": "Last name",
+  "enterYourLastName": "Enter your last name",
+  "phone": "Phone",
+  "enterYourPhone": "Enter your phone",
+  "confirmPassword": "Confirm password",
+  "enterYourConfirmPassword": "Enter your confirm password",
+  "alreadyHaveAccountLogin": "Already have an account? Login",
+  "register": "Register",
+  "verifyYourEmail": "Verify your email",
+  "verificationCodeSent": "We have sent a verification code to your email",
+  "verify": "Verify",
+  "resendCode": "Resend Code",
+  "notificationsEnabled": "Notifications enabled",
+  "notificationsDisabled": "Notifications disabled",
+  "couldNotOpenLink": "Could not open link",
+  "appearance": "Appearance",
+  "darkMode": "Dark mode",
+  "on": "On",
+  "off": "Off",
+  "notifications": "Notifications",
+  "pushNotifications": "Push notifications",
+  "receiveAppAlerts": "Receive app alerts",
+  "general": "General",
+  "language": "Language",
+  "english": "English",
+  "spanish": "Spanish",
+  "german": "German",
+  "mandarin": "Mandarin Chinese",
+  "about": "About",
+  "aboutVersion": "Version 1.0.0",
+  "linkedIn": "LinkedIn",
+  "julianNichollsC": "Julian Nicholls C",
+  "menu": "Menu",
+  "home": "Home",
+  "settings": "Settings",
+  "profile": "Profile",
+  "map": "Map",
+  "lightMode": "Light Mode",
+  "darkModeMenu": "Dark Mode",
+  "selectFromGallery": "Select from gallery",
+  "takeAPhoto": "Take a photo",
+  "route": "To",
+  "start": "From",
+  "travel": "Navigate",
+  "metroTitle": "Metro de Medellín",
+  "whereTo": "Where are you going?",
+  "whereToHint": "Type an address, place or station",
+  "originHint": "Starting point",
+  "destinationHint": "Destination",
+  "myLocation": "My location",
+  "cancel": "Cancel",
+  "findRoutes": "Find routes",
+  "searchingRoutes": "Finding the best route…",
+  "noRoutes": "No routes found for this trip",
+  "routeError": "Something went wrong while planning the trip",
+  "locationUnavailable": "Location unavailable",
+  "startTrip": "Start trip",
+  "recommended": "Recommended",
+  "fewestTransfers": "Fewest transfers",
+  "leastWalking": "Least walking",
+  "alternatives": "Alternatives",
+  "minutesShort": "{minutes} min",
+  "@minutesShort": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "transfersCount": "{count, plural, =0{Direct} =1{1 transfer} other{{count} transfers}}",
+  "@transfersCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "walkDistance": "{meters} m walking",
+  "@walkDistance": {
+    "placeholders": {
+      "meters": {
+        "type": "int"
+      }
+    }
+  },
+  "walkTo": "Walk to {place}",
+  "@walkTo": {
+    "placeholders": {
+      "place": {
+        "type": "String"
+      }
+    }
+  },
+  "boardTowards": "Take {line} towards {terminal}",
+  "@boardTowards": {
+    "placeholders": {
+      "line": {
+        "type": "String"
+      },
+      "terminal": {
+        "type": "String"
+      }
+    }
+  },
+  "stopsCount": "{count, plural, =1{1 stop} other{{count} stops}}",
+  "@stopsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "getOffAt": "Get off at {station}",
+  "@getOffAt": {
+    "placeholders": {
+      "station": {
+        "type": "String"
+      }
+    }
+  },
+  "waitAbout": "Wait ~{minutes} min",
+  "@waitAbout": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "tripStarting": "Starting your trip",
+  "nextStep": "Next step",
+  "previousStep": "Previous",
+  "stepOf": "Step {current} of {total}",
+  "@stepOf": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "arrived": "You've arrived!",
+  "endTrip": "End trip",
+  "approximateRoute": "Approximate route",
+  "modeMetro": "Metro",
+  "modeTram": "Tram",
+  "modeCable": "Metrocable",
+  "modeBus": "Bus",
+  "modeWalk": "Walk",
+  "lineName": "Line {id}",
+  "@lineName": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "metroplusLine": "Metroplús Line {number}",
+  "feederRoute": "Feeder route {code}",
+  "@metroplusLine": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "@feederRoute": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "clear": "Clear",
+  "findBestRoute": "Find best route",
+  "placeNotFound": "We couldn't find \"{query}\"",
+  "swapPlaces": "Swap origin and destination",
+  "centerOnMe": "Center on my location",
+  "@placeNotFound": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "skip": "Skip",
+  "approximateLocation": "Approximate location",
+  "walkToBusStreet": "Walk to the street where {line} passes",
+  "@walkToBusStreet": {
+    "placeholders": {
+      "line": {
+        "type": "String"
+      }
+    }
+  },
+  "boardOnStreet": "Board on the street (stops on request)",
+  "getOffNear": "Get off near {place}",
+  "@getOffNear": {
+    "placeholders": {
+      "place": {
+        "type": "String"
+      }
+    }
+  },
+  "yourDestination": "your destination",
+  "impreciseLocation": "Your location is imprecise (±{meters} m). Adjust it on the map for a better route.",
+  "@impreciseLocation": {
+    "placeholders": {
+      "meters": {
+        "type": "int"
+      }
+    }
+  },
+  "adjust": "Adjust",
+  "movePinOrigin": "Move the map to place point A (start)",
+  "movePinDestination": "Move the map to place point B (destination)",
+  "confirmPoint": "Confirm point",
+  "placeOnMap": "Place the point on the map",
+  "systemLanguage": "System language",
+  "menuSubtitle": "Get around the Valle de Aburrá",
+  "menuSectionTravel": "Travel",
+  "menuSectionLines": "System lines",
+  "goByCar": "Go by car instead",
+  "walkInstead": "Walk",
+  "rideHailTo": "Take {service} to {place}",
+  "@rideHailTo": {
+    "placeholders": {
+      "service": {
+        "type": "String"
+      },
+      "place": {
+        "type": "String"
+      }
+    }
+  },
+  "rideHailRequest": "Request it from {from} to {to}",
+  "@rideHailRequest": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "rideHailDetail": "{minutes} min by car (incl. ~{wait} min pickup) · {km} km",
+  "@rideHailDetail": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "wait": {
+        "type": "int"
+      },
+      "km": {
+        "type": "String"
+      }
+    }
+  },
+  "destinationCopied": "Destination copied: paste it in {service}",
+  "@destinationCopied": {
+    "placeholders": {
+      "service": {
+        "type": "String"
+      }
+    }
+  },
+  "appNotOpened": "Couldn't open {service}",
+  "@appNotOpened": {
+    "placeholders": {
+      "service": {
+        "type": "String"
+      }
+    }
+  },
+  "busStreetOf": "the street of {line}",
+  "@busStreetOf": {
+    "placeholders": {
+      "line": {
+        "type": "String"
+      }
+    }
+  },
+  "yourStart": "your starting point",
+  "modeCar": "Car",
+  "appTagline": "Your route around the city",
+  "onboardingTitle1": "Tell us where you're going",
+  "onboardingBody1": "Type an address, choose a station or place points A and B on the map.",
+  "onboardingTitle2": "The best combination",
+  "onboardingBody2": "Nicmo combines metro, tram, Metrocable, buses and walking, and shows you alternatives.",
+  "onboardingTitle3": "Travel step by step",
+  "onboardingBody3": "Follow each step on the map and switch a walk to Uber or inDrive when you need it.",
+  "next": "Next",
+  "getStarted": "Get started",
+  "showAllLines": "Show all lines",
+  "createdBy": "Created by",
+  "change": "Change",
+  "languageHint": "Tap to choose another language",
+  "destinationSent": "Destination sent to {service}",
+  "@destinationSent": {
+    "placeholders": {
+      "service": {
+        "type": "String"
+      }
+    }
+  },
+  "carTo": "Go by car to {place}",
+  "requestWith": "Request your car with",
+  "@carTo": {
+    "placeholders": {
+      "place": {
+        "type": "String"
+      }
+    }
+  },
+  "groupMetroplus": "Metroplús",
+  "groupFeeder": "Feeder buses",
+  "allTransport": "All transport",
+  "transportOnMap": "Transport on the map",
+  "linesTitle": "Lines and routes",
+  "searchLines": "Search line, route or neighbourhood",
+  "linesCount": "{count, plural, =1{1 line} other{{count} lines}}",
+  "@linesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "stopsOnRoute": "{count, plural, =1{1 stop} other{{count} stops}}",
+  "@stopsOnRoute": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "noLinesFound": "No lines match that name",
+  "feederRoutesNote": "Buses that take you to the stations. Paths and stops: Metro de Medellín open data.",
+  "seeAllLines": "See all lines",
+  "shareLocation": "Share my location",
+  "shareTripTitle": "Share my trip",
+  "shareTripHint": "A Google Maps link with the point where you are now is sent.",
+  "shareOtherApps": "Other apps",
+  "shareMessage": "I'm on my way to {destination} with Nicmo, arriving in about {minutes} min. I'm here: {link}",
+  "whatsAppUnavailable": "We couldn't open WhatsApp",
+  "@shareMessage": {
+    "placeholders": {
+      "destination": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "int"
+      },
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "groupBus": "City buses",
+  "familyMetro": "Metro system",
+  "familyBuses": "Buses",
+  "busRoute": "Bus {code}",
+  "@busRoute": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "busRoutesNote": "Public transport buses; they stop on request along the street. Paths published by the Alcaldía de Medellín and the Municipio de Itagüí (metropolitan routes). Check the route sign before boarding.",
+  "moveAround": "Get around {place}",
+  "@moveAround": {
+    "placeholders": {
+      "place": {
+        "type": "String"
+      }
+    }
+  },
+  "citiesTitle": "Cities",
+  "changeCity": "Change city",
+  "cityPickTitle": "Where are you getting around?",
+  "cityPickBody": "We only keep the map and routes of your city on the phone. Add other cities whenever you travel.",
+  "cityChooseFirst": "Choose a city to continue",
+  "cityCurrent": "You are in",
+  "cityActive": "Your cities",
+  "cityExplore": "More cities",
+  "citySearch": "Search city",
+  "cityNoMatch": "No city matches",
+  "cityAvailable": "Routes available",
+  "citySoon": "Coming soon",
+  "citySoonNote": "We are preparing the routes of {city}. You can already use the map and search places.",
+  "@citySoonNote": {
+    "placeholders": {
+      "city": {
+        "type": "String"
+      }
+    }
+  },
+  "cityGo": "Go",
+  "cityActivate": "Add",
+  "cityRemove": "Remove",
+  "cityRemoveTitle": "Remove {city}?",
+  "@cityRemoveTitle": {
+    "placeholders": {
+      "city": {
+        "type": "String"
+      }
+    }
+  },
+  "cityRemoveBody": "The offline map of this city ({size}) will be deleted. You can add it again at any time.",
+  "@cityRemoveBody": {
+    "placeholders": {
+      "city": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "cityRemoved": "{city} removed, space freed",
+  "@cityRemoved": {
+    "placeholders": {
+      "city": {
+        "type": "String"
+      }
+    }
+  },
+  "cityAdded": "{city} added: its map is kept as you use it",
+  "@cityAdded": {
+    "placeholders": {
+      "city": {
+        "type": "String"
+      }
+    }
+  },
+  "cityOfflineMap": "Offline map: {size}",
+  "@cityOfflineMap": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "cityOfflineEmpty": "Offline map: saved as you use it",
+  "cityHere": "You are here",
+  "cityNowIn": "Now in {city}",
+  "@cityNowIn": {
+    "placeholders": {
+      "city": {
+        "type": "String"
+      }
+    }
+  },
+  "cityKeepsOffline": "Only active cities keep their map on the phone",
+  "termsTitle": "Terms and conditions",
+  "termsSummary": "In short",
+  "termsUpdated": "Updated {date}",
+  "@termsUpdated": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "termsAcceptNotice": "By continuing you accept the",
+  "termsUnderstood": "Got it",
+  "cityPickBodySingle": "For now Nicmo covers Medellín and the whole Valle de Aburrá: metro, cable cars, tram and buses. More cities are on the way.",
+  "citySceneMedellin": "The city of eternal spring",
+  "@citySceneMedellin": {
+    "description": "Caption of the animated scene of a city (its best-known nickname); the last one is shown when several cities are active."
+  },
+  "citySceneBogota": "8,600 feet closer to the stars",
+  "citySceneCali": "The world capital of salsa",
+  "citySceneBarranquilla": "Carnival: those who live it, enjoy it",
+  "citySceneCartagena": "The Heroic City, by the Caribbean",
+  "citySceneBucaramanga": "The Beautiful City of parks",
+  "cityScenePereira": "In the heart of the Coffee Region",
+  "citySceneColombia": "Colombia, the country of beauty"
+}

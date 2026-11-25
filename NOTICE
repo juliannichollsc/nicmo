@@ -1,0 +1,22 @@
+Nicmo
+Copyright 2026 Julián Nicholls
+
+The source code is licensed under the Apache License, Version 2.0 (LICENSE).
+
+The transit data in assets/cities/ is NOT covered by that license. It is
+derived from the sources below and keeps their licenses and attribution:
+
+- OpenStreetMap contributors (https://www.openstreetmap.org/copyright),
+  Open Database License (ODbL) 1.0: station positions and line geometry
+  obtained through Overpass and Nominatim.
+- Metro de Medellín open data (https://datosabiertos-metrodemedellin.opendata.arcgis.com):
+  feeder routes and stops, GTFS 2025. CC BY-SA 4.0.
+- Alcaldía de Medellín, Secretaría de Movilidad, "Rutas de Transporte Público"
+  (https://www.medellin.gov.co/servidormapas/rest/services/transporte/VM_Movilidad/MapServer),
+  data of 2025-08-14. CC BY-SA 4.0.
+- Municipio de Itagüí, POT geoportal, "Rutas de transporte metropolitano"
+  (https://arcgis.itagui.gov.co/waserver/rest/services/Diagnostico/03_Dimension_Funcional/MapServer/26).
+  Public information (Colombian Law 1712 of 2014); no open license declared.
+
+Map tiles: OpenFreeMap (https://openfreemap.org) and OpenStreetMap.
+Each layer file lists its exact sources in its "sources" field.
